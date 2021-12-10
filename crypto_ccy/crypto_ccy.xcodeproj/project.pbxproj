@@ -1,0 +1,1218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565719A62751BC470072A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A52751BC470072A960 /* AppDelegate.swift */; };
+		565719A82751BC470072A960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A72751BC470072A960 /* SceneDelegate.swift */; };
+		565719AA2751BC470072A960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A92751BC470072A960 /* ViewController.swift */; };
+		565719AD2751BC470072A960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565719AB2751BC470072A960 /* Main.storyboard */; };
+		565719AF2751BC470072A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565719AE2751BC470072A960 /* Assets.xcassets */; };
+		565719B22751BC470072A960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565719B02751BC470072A960 /* LaunchScreen.storyboard */; };
+		565719BD2751BC470072A960 /* crypto_ccyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719BC2751BC470072A960 /* crypto_ccyTests.swift */; };
+		565719C72751BC470072A960 /* crypto_ccyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719C62751BC470072A960 /* crypto_ccyUITests.swift */; };
+		565719C92751BC470072A960 /* crypto_ccyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719C82751BC470072A960 /* crypto_ccyUITestsLaunchTests.swift */; };
+		565719CD2751BC480072A960 /* crypto_ccy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 565719CC2751BC480072A960 /* crypto_ccy WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		565719D32751BC480072A960 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565719D12751BC480072A960 /* Interface.storyboard */; };
+		565719D52751BC480072A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565719D42751BC480072A960 /* Assets.xcassets */; };
+		565719DB2751BC480072A960 /* crypto_ccy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 565719DA2751BC480072A960 /* crypto_ccy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		565719E02751BC480072A960 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719DF2751BC480072A960 /* InterfaceController.swift */; };
+		565719E22751BC480072A960 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E12751BC480072A960 /* ExtensionDelegate.swift */; };
+		565719E42751BC480072A960 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E32751BC480072A960 /* NotificationController.swift */; };
+		565719E62751BC480072A960 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E52751BC480072A960 /* ComplicationController.swift */; };
+		565719E82751BC490072A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565719E72751BC490072A960 /* Assets.xcassets */; };
+		565719F42751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719F32751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift */; };
+		565719FE2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719FD2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift */; };
+		56571A002751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719FF2751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565719B92751BC470072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719A12751BC470072A960;
+			remoteInfo = crypto_ccy;
+		};
+		565719C32751BC470072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719A12751BC470072A960;
+			remoteInfo = crypto_ccy;
+		};
+		565719CE2751BC480072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719CB2751BC480072A960;
+			remoteInfo = "crypto_ccy WatchKit App";
+		};
+		565719DC2751BC480072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719D92751BC480072A960;
+			remoteInfo = "crypto_ccy WatchKit Extension";
+		};
+		565719F02751BC490072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719D92751BC480072A960;
+			remoteInfo = "crypto_ccy WatchKit Extension";
+		};
+		565719FA2751BC490072A960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5657199A2751BC470072A960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565719CB2751BC480072A960;
+			remoteInfo = "crypto_ccy WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56571A062751BC490072A960 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				565719DB2751BC480072A960 /* crypto_ccy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56571A0A2751BC490072A960 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				565719CD2751BC480072A960 /* crypto_ccy WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		565719A22751BC470072A960 /* crypto_ccy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crypto_ccy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719A52751BC470072A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		565719A72751BC470072A960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		565719A92751BC470072A960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		565719AC2751BC470072A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		565719AE2751BC470072A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565719B12751BC470072A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		565719B32751BC470072A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565719B82751BC470072A960 /* crypto_ccyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crypto_ccyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719BC2751BC470072A960 /* crypto_ccyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccyTests.swift; sourceTree = "<group>"; };
+		565719C22751BC470072A960 /* crypto_ccyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crypto_ccyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719C62751BC470072A960 /* crypto_ccyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccyUITests.swift; sourceTree = "<group>"; };
+		565719C82751BC470072A960 /* crypto_ccyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		565719CC2751BC480072A960 /* crypto_ccy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crypto_ccy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719D22751BC480072A960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		565719D42751BC480072A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565719DA2751BC480072A960 /* crypto_ccy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "crypto_ccy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719DF2751BC480072A960 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		565719E12751BC480072A960 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		565719E32751BC480072A960 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		565719E52751BC480072A960 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		565719E72751BC490072A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565719E92751BC490072A960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565719EA2751BC490072A960 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		565719EF2751BC490072A960 /* crypto_ccy WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crypto_ccy WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719F32751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccy_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		565719F92751BC490072A960 /* crypto_ccy WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crypto_ccy WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565719FD2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccy_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		565719FF2751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccy_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5657199F2751BC470072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719B52751BC470072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719BF2751BC470072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719D72751BC480072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719EC2751BC490072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719F62751BC490072A960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565719992751BC470072A960 = {
+			isa = PBXGroup;
+			children = (
+				565719A42751BC470072A960 /* crypto_ccy */,
+				565719BB2751BC470072A960 /* crypto_ccyTests */,
+				565719C52751BC470072A960 /* crypto_ccyUITests */,
+				565719D02751BC480072A960 /* crypto_ccy WatchKit App */,
+				565719DE2751BC480072A960 /* crypto_ccy WatchKit Extension */,
+				565719F22751BC490072A960 /* crypto_ccy WatchKit AppTests */,
+				565719FC2751BC490072A960 /* crypto_ccy WatchKit AppUITests */,
+				565719A32751BC470072A960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		565719A32751BC470072A960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565719A22751BC470072A960 /* crypto_ccy.app */,
+				565719B82751BC470072A960 /* crypto_ccyTests.xctest */,
+				565719C22751BC470072A960 /* crypto_ccyUITests.xctest */,
+				565719CC2751BC480072A960 /* crypto_ccy WatchKit App.app */,
+				565719DA2751BC480072A960 /* crypto_ccy WatchKit Extension.appex */,
+				565719EF2751BC490072A960 /* crypto_ccy WatchKit AppTests.xctest */,
+				565719F92751BC490072A960 /* crypto_ccy WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565719A42751BC470072A960 /* crypto_ccy */ = {
+			isa = PBXGroup;
+			children = (
+				565719A52751BC470072A960 /* AppDelegate.swift */,
+				565719A72751BC470072A960 /* SceneDelegate.swift */,
+				565719A92751BC470072A960 /* ViewController.swift */,
+				565719AB2751BC470072A960 /* Main.storyboard */,
+				565719AE2751BC470072A960 /* Assets.xcassets */,
+				565719B02751BC470072A960 /* LaunchScreen.storyboard */,
+				565719B32751BC470072A960 /* Info.plist */,
+			);
+			path = crypto_ccy;
+			sourceTree = "<group>";
+		};
+		565719BB2751BC470072A960 /* crypto_ccyTests */ = {
+			isa = PBXGroup;
+			children = (
+				565719BC2751BC470072A960 /* crypto_ccyTests.swift */,
+			);
+			path = crypto_ccyTests;
+			sourceTree = "<group>";
+		};
+		565719C52751BC470072A960 /* crypto_ccyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				565719C62751BC470072A960 /* crypto_ccyUITests.swift */,
+				565719C82751BC470072A960 /* crypto_ccyUITestsLaunchTests.swift */,
+			);
+			path = crypto_ccyUITests;
+			sourceTree = "<group>";
+		};
+		565719D02751BC480072A960 /* crypto_ccy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				565719D12751BC480072A960 /* Interface.storyboard */,
+				565719D42751BC480072A960 /* Assets.xcassets */,
+			);
+			path = "crypto_ccy WatchKit App";
+			sourceTree = "<group>";
+		};
+		565719DE2751BC480072A960 /* crypto_ccy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				565719DF2751BC480072A960 /* InterfaceController.swift */,
+				565719E12751BC480072A960 /* ExtensionDelegate.swift */,
+				565719E32751BC480072A960 /* NotificationController.swift */,
+				565719E52751BC480072A960 /* ComplicationController.swift */,
+				565719E72751BC490072A960 /* Assets.xcassets */,
+				565719E92751BC490072A960 /* Info.plist */,
+				565719EA2751BC490072A960 /* PushNotificationPayload.apns */,
+			);
+			path = "crypto_ccy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		565719F22751BC490072A960 /* crypto_ccy WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				565719F32751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift */,
+			);
+			path = "crypto_ccy WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		565719FC2751BC490072A960 /* crypto_ccy WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				565719FD2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift */,
+				565719FF2751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "crypto_ccy WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		565719A12751BC470072A960 /* crypto_ccy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A0B2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy" */;
+			buildPhases = (
+				5657199E2751BC470072A960 /* Sources */,
+				5657199F2751BC470072A960 /* Frameworks */,
+				565719A02751BC470072A960 /* Resources */,
+				56571A0A2751BC490072A960 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719CF2751BC480072A960 /* PBXTargetDependency */,
+			);
+			name = crypto_ccy;
+			productName = crypto_ccy;
+			productReference = 565719A22751BC470072A960 /* crypto_ccy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		565719B72751BC470072A960 /* crypto_ccyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A0E2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyTests" */;
+			buildPhases = (
+				565719B42751BC470072A960 /* Sources */,
+				565719B52751BC470072A960 /* Frameworks */,
+				565719B62751BC470072A960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719BA2751BC470072A960 /* PBXTargetDependency */,
+			);
+			name = crypto_ccyTests;
+			productName = crypto_ccyTests;
+			productReference = 565719B82751BC470072A960 /* crypto_ccyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		565719C12751BC470072A960 /* crypto_ccyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A112751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyUITests" */;
+			buildPhases = (
+				565719BE2751BC470072A960 /* Sources */,
+				565719BF2751BC470072A960 /* Frameworks */,
+				565719C02751BC470072A960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719C42751BC470072A960 /* PBXTargetDependency */,
+			);
+			name = crypto_ccyUITests;
+			productName = crypto_ccyUITests;
+			productReference = 565719C22751BC470072A960 /* crypto_ccyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		565719CB2751BC480072A960 /* crypto_ccy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A072751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit App" */;
+			buildPhases = (
+				565719CA2751BC480072A960 /* Resources */,
+				56571A062751BC490072A960 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719DD2751BC480072A960 /* PBXTargetDependency */,
+			);
+			name = "crypto_ccy WatchKit App";
+			productName = "crypto_ccy WatchKit App";
+			productReference = 565719CC2751BC480072A960 /* crypto_ccy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		565719D92751BC480072A960 /* crypto_ccy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A032751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit Extension" */;
+			buildPhases = (
+				565719D62751BC480072A960 /* Sources */,
+				565719D72751BC480072A960 /* Frameworks */,
+				565719D82751BC480072A960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "crypto_ccy WatchKit Extension";
+			productName = "crypto_ccy WatchKit Extension";
+			productReference = 565719DA2751BC480072A960 /* crypto_ccy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		565719EE2751BC490072A960 /* crypto_ccy WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A142751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppTests" */;
+			buildPhases = (
+				565719EB2751BC490072A960 /* Sources */,
+				565719EC2751BC490072A960 /* Frameworks */,
+				565719ED2751BC490072A960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719F12751BC490072A960 /* PBXTargetDependency */,
+			);
+			name = "crypto_ccy WatchKit AppTests";
+			productName = "crypto_ccy WatchKit AppTests";
+			productReference = 565719EF2751BC490072A960 /* crypto_ccy WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		565719F82751BC490072A960 /* crypto_ccy WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56571A172751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppUITests" */;
+			buildPhases = (
+				565719F52751BC490072A960 /* Sources */,
+				565719F62751BC490072A960 /* Frameworks */,
+				565719F72751BC490072A960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565719FB2751BC490072A960 /* PBXTargetDependency */,
+			);
+			name = "crypto_ccy WatchKit AppUITests";
+			productName = "crypto_ccy WatchKit AppUITests";
+			productReference = 565719F92751BC490072A960 /* crypto_ccy WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5657199A2751BC470072A960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					565719A12751BC470072A960 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					565719B72751BC470072A960 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 565719A12751BC470072A960;
+					};
+					565719C12751BC470072A960 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 565719A12751BC470072A960;
+					};
+					565719CB2751BC480072A960 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					565719D92751BC480072A960 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					565719EE2751BC490072A960 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 565719D92751BC480072A960;
+					};
+					565719F82751BC490072A960 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 565719CB2751BC480072A960;
+					};
+				};
+			};
+			buildConfigurationList = 5657199D2751BC470072A960 /* Build configuration list for PBXProject "crypto_ccy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 565719992751BC470072A960;
+			productRefGroup = 565719A32751BC470072A960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				565719A12751BC470072A960 /* crypto_ccy */,
+				565719B72751BC470072A960 /* crypto_ccyTests */,
+				565719C12751BC470072A960 /* crypto_ccyUITests */,
+				565719CB2751BC480072A960 /* crypto_ccy WatchKit App */,
+				565719D92751BC480072A960 /* crypto_ccy WatchKit Extension */,
+				565719EE2751BC490072A960 /* crypto_ccy WatchKit AppTests */,
+				565719F82751BC490072A960 /* crypto_ccy WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		565719A02751BC470072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719B22751BC470072A960 /* LaunchScreen.storyboard in Resources */,
+				565719AF2751BC470072A960 /* Assets.xcassets in Resources */,
+				565719AD2751BC470072A960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719B62751BC470072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719C02751BC470072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719CA2751BC480072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719D52751BC480072A960 /* Assets.xcassets in Resources */,
+				565719D32751BC480072A960 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719D82751BC480072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719E82751BC490072A960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719ED2751BC490072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719F72751BC490072A960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5657199E2751BC470072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719AA2751BC470072A960 /* ViewController.swift in Sources */,
+				565719A62751BC470072A960 /* AppDelegate.swift in Sources */,
+				565719A82751BC470072A960 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719B42751BC470072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719BD2751BC470072A960 /* crypto_ccyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719BE2751BC470072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719C72751BC470072A960 /* crypto_ccyUITests.swift in Sources */,
+				565719C92751BC470072A960 /* crypto_ccyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719D62751BC480072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719E42751BC480072A960 /* NotificationController.swift in Sources */,
+				565719E62751BC480072A960 /* ComplicationController.swift in Sources */,
+				565719E22751BC480072A960 /* ExtensionDelegate.swift in Sources */,
+				565719E02751BC480072A960 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719EB2751BC490072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565719F42751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565719F52751BC490072A960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56571A002751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				565719FE2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		565719BA2751BC470072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719A12751BC470072A960 /* crypto_ccy */;
+			targetProxy = 565719B92751BC470072A960 /* PBXContainerItemProxy */;
+		};
+		565719C42751BC470072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719A12751BC470072A960 /* crypto_ccy */;
+			targetProxy = 565719C32751BC470072A960 /* PBXContainerItemProxy */;
+		};
+		565719CF2751BC480072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719CB2751BC480072A960 /* crypto_ccy WatchKit App */;
+			targetProxy = 565719CE2751BC480072A960 /* PBXContainerItemProxy */;
+		};
+		565719DD2751BC480072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719D92751BC480072A960 /* crypto_ccy WatchKit Extension */;
+			targetProxy = 565719DC2751BC480072A960 /* PBXContainerItemProxy */;
+		};
+		565719F12751BC490072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719D92751BC480072A960 /* crypto_ccy WatchKit Extension */;
+			targetProxy = 565719F02751BC490072A960 /* PBXContainerItemProxy */;
+		};
+		565719FB2751BC490072A960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565719CB2751BC480072A960 /* crypto_ccy WatchKit App */;
+			targetProxy = 565719FA2751BC490072A960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		565719AB2751BC470072A960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				565719AC2751BC470072A960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		565719B02751BC470072A960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				565719B12751BC470072A960 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		565719D12751BC480072A960 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				565719D22751BC480072A960 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56571A012751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56571A022751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56571A042751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crypto_ccy WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		56571A052751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crypto_ccy WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		56571A082751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = crypto_ccy_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "vns.crypto-ccy";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		56571A092751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = crypto_ccy_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "vns.crypto-ccy";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		56571A0C2751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = crypto_ccy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56571A0D2751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = crypto_ccy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56571A0F2751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crypto_ccy.app/crypto_ccy";
+			};
+			name = Debug;
+		};
+		56571A102751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crypto_ccy.app/crypto_ccy";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56571A122751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crypto_ccy;
+			};
+			name = Debug;
+		};
+		56571A132751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crypto_ccy;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56571A152751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crypto_ccy WatchKit Extension.appex/crypto_ccy WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		56571A162751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crypto_ccy WatchKit Extension.appex/crypto_ccy WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		56571A182751BC490072A960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "crypto_ccy WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		56571A192751BC490072A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC3JUB2K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vns.crypto-ccy-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "crypto_ccy WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5657199D2751BC470072A960 /* Build configuration list for PBXProject "crypto_ccy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A012751BC490072A960 /* Debug */,
+				56571A022751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A032751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A042751BC490072A960 /* Debug */,
+				56571A052751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A072751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A082751BC490072A960 /* Debug */,
+				56571A092751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A0B2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A0C2751BC490072A960 /* Debug */,
+				56571A0D2751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A0E2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A0F2751BC490072A960 /* Debug */,
+				56571A102751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A112751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A122751BC490072A960 /* Debug */,
+				56571A132751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A142751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A152751BC490072A960 /* Debug */,
+				56571A162751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56571A172751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56571A182751BC490072A960 /* Debug */,
+				56571A192751BC490072A960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5657199A2751BC470072A960 /* Project object */;
+}
