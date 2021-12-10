@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109BED9D32500E317EF647CD /* libPods-crypto_ccy-crypto_ccyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8F9EFD68DDF616B1D5C43C /* libPods-crypto_ccy-crypto_ccyUITests.a */; };
+		56305A4D27619BE100090AE3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719DF2751BC480072A960 /* InterfaceController.swift */; };
+		563447992751D62000302033 /* rowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563447982751D62000302033 /* rowController.swift */; };
 		565719A62751BC470072A960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A52751BC470072A960 /* AppDelegate.swift */; };
 		565719A82751BC470072A960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A72751BC470072A960 /* SceneDelegate.swift */; };
 		565719AA2751BC470072A960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719A92751BC470072A960 /* ViewController.swift */; };
@@ -20,7 +23,6 @@
 		565719D32751BC480072A960 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565719D12751BC480072A960 /* Interface.storyboard */; };
 		565719D52751BC480072A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565719D42751BC480072A960 /* Assets.xcassets */; };
 		565719DB2751BC480072A960 /* crypto_ccy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 565719DA2751BC480072A960 /* crypto_ccy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		565719E02751BC480072A960 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719DF2751BC480072A960 /* InterfaceController.swift */; };
 		565719E22751BC480072A960 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E12751BC480072A960 /* ExtensionDelegate.swift */; };
 		565719E42751BC480072A960 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E32751BC480072A960 /* NotificationController.swift */; };
 		565719E62751BC480072A960 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719E52751BC480072A960 /* ComplicationController.swift */; };
@@ -28,6 +30,12 @@
 		565719F42751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719F32751BC490072A960 /* crypto_ccy_WatchKit_AppTests.swift */; };
 		565719FE2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719FD2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift */; };
 		56571A002751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565719FF2751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift */; };
+		93151071EAD2BB0B2A3D7CD8 /* libPods-crypto_ccyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1451B0A14BAA3613CF62A67F /* libPods-crypto_ccyTests.a */; };
+		99EE21227B67DE636CA6F6B7 /* libPods-crypto_ccy WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07813C8DDFCBE00605BBA169 /* libPods-crypto_ccy WatchKit Extension.a */; };
+		A5E2B218D54608EBFF6BED9E /* libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CB1138F8501D23A68E1C3B /* libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a */; };
+		B62034278D6C7A22141B4C73 /* libPods-crypto_ccy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD98630DC2D95DD20A95285 /* libPods-crypto_ccy.a */; };
+		BE0902C2331ACB7CEE221FE0 /* libPods-crypto_ccy WatchKit AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C00C5852CCDC4FCC40B60 /* libPods-crypto_ccy WatchKit AppTests.a */; };
+		EDFDF38A969C3EF065B11995 /* libPods-crypto_ccy WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8521B7CDB56A3B94BBF24C7 /* libPods-crypto_ccy WatchKit App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +109,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07813C8DDFCBE00605BBA169 /* libPods-crypto_ccy WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A749F76E033113204D2BBE9 /* Pods-crypto_ccyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccyTests.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccyTests/Pods-crypto_ccyTests.release.xcconfig"; sourceTree = "<group>"; };
+		11E06FC91F71EC603D278755 /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests/Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1451B0A14BAA3613CF62A67F /* libPods-crypto_ccyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		176BD52646833FE3B13004CD /* Pods-crypto_ccy-crypto_ccyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccyUITests.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccyUITests/Pods-crypto_ccy-crypto_ccyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19CEECC5C180677D6E239599 /* Pods-crypto_ccy WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit Extension/Pods-crypto_ccy WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2AD98630DC2D95DD20A95285 /* libPods-crypto_ccy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316DB0A6A6636B9198252F11 /* Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccy WatchKit AppUITests/Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32CB1138F8501D23A68E1C3B /* libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC4E994D109F845DC27BC0F /* Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccy WatchKit AppUITests/Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4010EB758BAAEE40089A8295 /* Pods-crypto_ccy-crypto_ccy WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccy WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccy WatchKit Extension/Pods-crypto_ccy-crypto_ccy WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		431F02BBD47A320FAEC82B3E /* Pods-crypto_ccy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy/Pods-crypto_ccy.debug.xcconfig"; sourceTree = "<group>"; };
+		44B7C53C625449AC639F777C /* Pods-crypto_ccy WatchKit AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit AppTests.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit AppTests/Pods-crypto_ccy WatchKit AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		50A395676C92AE15EE141B5C /* Pods-crypto_ccy WatchKit AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit AppTests.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit AppTests/Pods-crypto_ccy WatchKit AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5611AF45FB3B3A8FD4B39935 /* Pods-crypto_ccy-crypto_ccyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccyUITests.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccyUITests/Pods-crypto_ccy-crypto_ccyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		563447982751D62000302033 /* rowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rowController.swift; sourceTree = "<group>"; };
 		565719A22751BC470072A960 /* crypto_ccy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crypto_ccy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565719A52751BC470072A960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		565719A72751BC470072A960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +154,16 @@
 		565719F92751BC490072A960 /* crypto_ccy WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crypto_ccy WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		565719FD2751BC490072A960 /* crypto_ccy_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccy_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		565719FF2751BC490072A960 /* crypto_ccy_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crypto_ccy_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8080DCF604A53EBD3DAE7FFF /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests/Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D8AB7BCA05C19137A168E58 /* Pods-crypto_ccyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccyTests.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccyTests/Pods-crypto_ccyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DD7FF96C117201FB139EC1F /* Pods-crypto_ccy WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit App/Pods-crypto_ccy WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		A82C00C5852CCDC4FCC40B60 /* libPods-crypto_ccy WatchKit AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy WatchKit AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8F9EFD68DDF616B1D5C43C /* libPods-crypto_ccy-crypto_ccyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy-crypto_ccyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AA9B488A8A04B73C33DC51 /* Pods-crypto_ccy WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit Extension/Pods-crypto_ccy WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		BF943DBB50DB6D5ADB82E434 /* Pods-crypto_ccy WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy WatchKit App/Pods-crypto_ccy WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		C12082019303A75FD5654E90 /* Pods-crypto_ccy-crypto_ccy WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy-crypto_ccy WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-crypto_ccy-crypto_ccy WatchKit Extension/Pods-crypto_ccy-crypto_ccy WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A7606C888778C45477D05A /* Pods-crypto_ccy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crypto_ccy.release.xcconfig"; path = "Target Support Files/Pods-crypto_ccy/Pods-crypto_ccy.release.xcconfig"; sourceTree = "<group>"; };
+		D8521B7CDB56A3B94BBF24C7 /* libPods-crypto_ccy WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crypto_ccy WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62034278D6C7A22141B4C73 /* libPods-crypto_ccy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93151071EAD2BB0B2A3D7CD8 /* libPods-crypto_ccyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109BED9D32500E317EF647CD /* libPods-crypto_ccy-crypto_ccyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EE21227B67DE636CA6F6B7 /* libPods-crypto_ccy WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0902C2331ACB7CEE221FE0 /* libPods-crypto_ccy WatchKit AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +211,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E2B218D54608EBFF6BED9E /* libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34861B7D8E7FB42CEDC72D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFDF38A969C3EF065B11995 /* libPods-crypto_ccy WatchKit App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +237,8 @@
 				565719F22751BC490072A960 /* crypto_ccy WatchKit AppTests */,
 				565719FC2751BC490072A960 /* crypto_ccy WatchKit AppUITests */,
 				565719A32751BC470072A960 /* Products */,
+				F1490A3C783EFC984FBCDDF8 /* Pods */,
+				F80E3D1B77EEF50D02BABFFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +306,7 @@
 				565719E72751BC490072A960 /* Assets.xcassets */,
 				565719E92751BC490072A960 /* Info.plist */,
 				565719EA2751BC490072A960 /* PushNotificationPayload.apns */,
+				563447982751D62000302033 /* rowController.swift */,
 			);
 			path = "crypto_ccy WatchKit Extension";
 			sourceTree = "<group>";
@@ -277,6 +328,45 @@
 			path = "crypto_ccy WatchKit AppUITests";
 			sourceTree = "<group>";
 		};
+		F1490A3C783EFC984FBCDDF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431F02BBD47A320FAEC82B3E /* Pods-crypto_ccy.debug.xcconfig */,
+				C4A7606C888778C45477D05A /* Pods-crypto_ccy.release.xcconfig */,
+				C12082019303A75FD5654E90 /* Pods-crypto_ccy-crypto_ccy WatchKit Extension.debug.xcconfig */,
+				4010EB758BAAEE40089A8295 /* Pods-crypto_ccy-crypto_ccy WatchKit Extension.release.xcconfig */,
+				19CEECC5C180677D6E239599 /* Pods-crypto_ccy WatchKit Extension.debug.xcconfig */,
+				B8AA9B488A8A04B73C33DC51 /* Pods-crypto_ccy WatchKit Extension.release.xcconfig */,
+				8DD7FF96C117201FB139EC1F /* Pods-crypto_ccy WatchKit App.debug.xcconfig */,
+				BF943DBB50DB6D5ADB82E434 /* Pods-crypto_ccy WatchKit App.release.xcconfig */,
+				50A395676C92AE15EE141B5C /* Pods-crypto_ccy WatchKit AppTests.debug.xcconfig */,
+				44B7C53C625449AC639F777C /* Pods-crypto_ccy WatchKit AppTests.release.xcconfig */,
+				3AC4E994D109F845DC27BC0F /* Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.debug.xcconfig */,
+				316DB0A6A6636B9198252F11 /* Pods-crypto_ccy-crypto_ccy WatchKit AppUITests.release.xcconfig */,
+				5611AF45FB3B3A8FD4B39935 /* Pods-crypto_ccy-crypto_ccyUITests.debug.xcconfig */,
+				176BD52646833FE3B13004CD /* Pods-crypto_ccy-crypto_ccyUITests.release.xcconfig */,
+				8D8AB7BCA05C19137A168E58 /* Pods-crypto_ccyTests.debug.xcconfig */,
+				0A749F76E033113204D2BBE9 /* Pods-crypto_ccyTests.release.xcconfig */,
+				11E06FC91F71EC603D278755 /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.debug.xcconfig */,
+				8080DCF604A53EBD3DAE7FFF /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F80E3D1B77EEF50D02BABFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD98630DC2D95DD20A95285 /* libPods-crypto_ccy.a */,
+				D8521B7CDB56A3B94BBF24C7 /* libPods-crypto_ccy WatchKit App.a */,
+				32CB1138F8501D23A68E1C3B /* libPods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.a */,
+				A82C00C5852CCDC4FCC40B60 /* libPods-crypto_ccy WatchKit AppTests.a */,
+				07813C8DDFCBE00605BBA169 /* libPods-crypto_ccy WatchKit Extension.a */,
+				AF8F9EFD68DDF616B1D5C43C /* libPods-crypto_ccy-crypto_ccyUITests.a */,
+				1451B0A14BAA3613CF62A67F /* libPods-crypto_ccyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A0B2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy" */;
 			buildPhases = (
+				FD2DBE71091607EA8F14DBA8 /* [CP] Check Pods Manifest.lock */,
 				5657199E2751BC470072A960 /* Sources */,
 				5657199F2751BC470072A960 /* Frameworks */,
 				565719A02751BC470072A960 /* Resources */,
@@ -303,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A0E2751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyTests" */;
 			buildPhases = (
+				8A64A9E0AC8A4F0F344CA900 /* [CP] Check Pods Manifest.lock */,
 				565719B42751BC470072A960 /* Sources */,
 				565719B52751BC470072A960 /* Frameworks */,
 				565719B62751BC470072A960 /* Resources */,
@@ -321,6 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A112751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccyUITests" */;
 			buildPhases = (
+				1756B949F56116DC4C388879 /* [CP] Check Pods Manifest.lock */,
 				565719BE2751BC470072A960 /* Sources */,
 				565719BF2751BC470072A960 /* Frameworks */,
 				565719C02751BC470072A960 /* Resources */,
@@ -339,8 +432,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A072751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit App" */;
 			buildPhases = (
+				6A928055E49B6471946FBB09 /* [CP] Check Pods Manifest.lock */,
 				565719CA2751BC480072A960 /* Resources */,
 				56571A062751BC490072A960 /* Embed App Extensions */,
+				D34861B7D8E7FB42CEDC72D8 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +451,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A032751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit Extension" */;
 			buildPhases = (
+				335CDCA57E08F970FCED2001 /* [CP] Check Pods Manifest.lock */,
 				565719D62751BC480072A960 /* Sources */,
 				565719D72751BC480072A960 /* Frameworks */,
 				565719D82751BC480072A960 /* Resources */,
@@ -373,6 +469,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A142751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppTests" */;
 			buildPhases = (
+				81046E631375F3A76CD970C7 /* [CP] Check Pods Manifest.lock */,
 				565719EB2751BC490072A960 /* Sources */,
 				565719EC2751BC490072A960 /* Frameworks */,
 				565719ED2751BC490072A960 /* Resources */,
@@ -391,6 +488,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56571A172751BC490072A960 /* Build configuration list for PBXNativeTarget "crypto_ccy WatchKit AppUITests" */;
 			buildPhases = (
+				66E2AA4D5AB9D7B0A33C6426 /* [CP] Check Pods Manifest.lock */,
 				565719F52751BC490072A960 /* Sources */,
 				565719F62751BC490072A960 /* Frameworks */,
 				565719F72751BC490072A960 /* Resources */,
@@ -524,6 +622,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1756B949F56116DC4C388879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy-crypto_ccyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		335CDCA57E08F970FCED2001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E2AA4D5AB9D7B0A33C6426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A928055E49B6471946FBB09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81046E631375F3A76CD970C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy WatchKit AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A64A9E0AC8A4F0F344CA900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2DBE71091607EA8F14DBA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crypto_ccy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5657199E2751BC470072A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -556,10 +811,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56305A4D27619BE100090AE3 /* InterfaceController.swift in Sources */,
+				563447992751D62000302033 /* rowController.swift in Sources */,
 				565719E42751BC480072A960 /* NotificationController.swift in Sources */,
 				565719E62751BC480072A960 /* ComplicationController.swift in Sources */,
 				565719E22751BC480072A960 /* ExtensionDelegate.swift in Sources */,
-				565719E02751BC480072A960 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +1005,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -756,6 +1013,7 @@
 		};
 		56571A042751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CEECC5C180677D6E239599 /* Pods-crypto_ccy WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -763,10 +1021,10 @@
 				DEVELOPMENT_TEAM = CC3JUB2K34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "crypto_ccy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoFast;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = crypto_ccy_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = crypto_ccy_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -787,6 +1045,7 @@
 		};
 		56571A052751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AA9B488A8A04B73C33DC51 /* Pods-crypto_ccy WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -794,10 +1053,10 @@
 				DEVELOPMENT_TEAM = CC3JUB2K34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "crypto_ccy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "crypto_ccy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoFast;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = crypto_ccy_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = crypto_ccy_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -812,13 +1071,14 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
 		56571A082751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD7FF96C117201FB139EC1F /* Pods-crypto_ccy WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -845,6 +1105,7 @@
 		};
 		56571A092751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF943DBB50DB6D5ADB82E434 /* Pods-crypto_ccy WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -872,6 +1133,7 @@
 		};
 		56571A0C2751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431F02BBD47A320FAEC82B3E /* Pods-crypto_ccy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -902,6 +1164,7 @@
 		};
 		56571A0D2751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A7606C888778C45477D05A /* Pods-crypto_ccy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -933,6 +1196,7 @@
 		};
 		56571A0F2751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8AB7BCA05C19137A168E58 /* Pods-crypto_ccyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -959,6 +1223,7 @@
 		};
 		56571A102751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A749F76E033113204D2BBE9 /* Pods-crypto_ccyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -986,6 +1251,7 @@
 		};
 		56571A122751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5611AF45FB3B3A8FD4B39935 /* Pods-crypto_ccy-crypto_ccyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1011,6 +1277,7 @@
 		};
 		56571A132751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176BD52646833FE3B13004CD /* Pods-crypto_ccy-crypto_ccyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1037,6 +1304,7 @@
 		};
 		56571A152751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A395676C92AE15EE141B5C /* Pods-crypto_ccy WatchKit AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1063,6 +1331,7 @@
 		};
 		56571A162751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B7C53C625449AC639F777C /* Pods-crypto_ccy WatchKit AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1090,6 +1359,7 @@
 		};
 		56571A182751BC490072A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E06FC91F71EC603D278755 /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1114,6 +1384,7 @@
 		};
 		56571A192751BC490072A960 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8080DCF604A53EBD3DAE7FFF /* Pods-crypto_ccy WatchKit App-crypto_ccy WatchKit AppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

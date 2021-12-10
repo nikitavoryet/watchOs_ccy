@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import WatchKit
+
+class rowController: NSObject {
+    
+    @IBOutlet weak var ccyName: WKInterfaceLabel!
+    @IBOutlet weak var cource: WKInterfaceLabel!
+}
