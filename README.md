@@ -3,7 +3,7 @@
 ## Decsription
 The project was created to demonstrate the speed of creation and operation of applications for watches.
 
-There is no huge logic in the project, static information with one screen. The speed of work and the number of lines does not exceed two hundred.
+There is no huge logic in the project, static information is on one screen. The number of lines does not exceed two hundred, but completely covers my need to view the course without any advertising and payment.
 
 The project will, if possible, be supplemented to test the functionality, which may be:
   - Keeping a list in memory
